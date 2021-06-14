@@ -1,0 +1,37 @@
+.my-first-container
+    align-items: center
+    padding: 70px 70px
+    .first-part
+        font-weight: 500
+        font-size: 50px
+        line-height: 70px
+        color:#0B132A
+        >span
+            font-weight: 700
+
+    .second-part
+        font-size: 16px
+        line-height: 30px
+        color:#4F5665
+    .start 
+        margin-top: 20px
+        padding: 15px 50px
+        background: #F53838
+        border-radius: 10px
+        -webkit-box-shadow: 0px 41px 54px -24px rgba(245,56,56,1)
+        -moz-box-shadow: 0px 41px 54px -24px rgba(245,56,56,1)
+        box-shadow: 0px 41px 54px -24px rgba(245,56,56,1)
+
+$breakpoint-mobile: 700px
+@media (max-width: $breakpoint-mobile) 
+    .first-part
+        text-align: center !important
+        font-weight: 500 !important
+        font-size: 24px !important
+        line-height: 40px !important
+    .second-part
+        font-weight: normal !important
+        font-size: 16px !important
+        line-height: 30px !important
+        text-align: left !important
+
